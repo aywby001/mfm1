@@ -1,0 +1,56 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "attack_02",
+      "texture": "b40a66ff-5d03-4c0e-8c61-474fcbe19f10",
+      "rect": [
+        0,
+        0,
+        26,
+        47
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        26,
+        47
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "idle",
+    "_duration": 0.48,
+    "sample": 10,
+    "wrapMode": 22,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "2be21279-f463-4452-9e91-1b41038b090d"
+              }
+            }
+          ]
+        }
+      },
+      "props": {
+        "scaleY": [
+          {
+            "frame": 0,
+            "value": 1
+          },
+          {
+            "frame": 0.5,
+            "value": 0.95
+          }
+        ]
+      }
+    }
+  }
+]

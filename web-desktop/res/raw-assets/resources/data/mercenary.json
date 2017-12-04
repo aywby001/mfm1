@@ -1,0 +1,14 @@
+{"mercenary":[
+	{"id":"0", "name":"", "quality":"", "kind":"1", "icon":"", "att":"100", "attinc":"5", "def":"10", "definc":"1", "health":"200", "healthinc":"10", "attkind":"1", "composepatch":"1", "composeneed":"80", "speed":"1", "speedinc":"1"},
+	{"id":"1", "name":"暗牧", "quality":"4", "kind":"1", "icon":"anmu", "att":"100", "attinc":"5", "def":"10", "definc":"1", "health":"200", "healthinc":"10", "attkind":"1", "composepatch":"1", "composeneed":"80", "speed":"4", "speedinc":"4"},
+	{"id":"2", "name":"潮汐", "quality":"3", "kind":"1", "icon":"chaoxi", "att":"80", "attinc":"5", "def":"8", "definc":"1", "health":"220", "healthinc":"10", "attkind":"2", "composepatch":"2", "composeneed":"50", "speed":"3", "speedinc":"3"},
+	{"id":"3", "name":"船长", "quality":"2", "kind":"1", "icon":"chuanzhang", "att":"80", "attinc":"5", "def":"8", "definc":"1", "health":"220", "healthinc":"10", "attkind":"2", "composepatch":"3", "composeneed":"30", "speed":"2", "speedinc":"2"},
+	{"id":"4", "name":"海妖", "quality":"2", "kind":"1", "icon":"haiyao", "att":"80", "attinc":"5", "def":"8", "definc":"1", "health":"220", "healthinc":"10", "attkind":"2", "composepatch":"4", "composeneed":"30", "speed":"2", "speedinc":"2"},
+	{"id":"5", "name":"女王", "quality":"1", "kind":"1", "icon":"nvwang", "att":"80", "attinc":"5", "def":"8", "definc":"1", "health":"220", "healthinc":"10", "attkind":"2", "composepatch":"5", "composeneed":"10", "speed":"1", "speedinc":"1"},
+	{"id":"6", "name":"沉默", "quality":"3", "kind":"1", "icon":"chenmo", "att":"90", "attinc":"6", "def":"3", "definc":"1", "health":"180", "healthinc":"10", "attkind":"2", "composepatch":"12", "composeneed":"50", "speed":"3", "speedinc":"3"},
+	{"id":"7", "name":"大娜迦", "quality":"3", "kind":"1", "icon":"danajia", "att":"50", "attinc":"3", "def":"8", "definc":"2", "health":"300", "healthinc":"15", "attkind":"2", "composepatch":"13", "composeneed":"50", "speed":"3", "speedinc":"3"},
+	{"id":"8", "name":"电棍", "quality":"2", "kind":"1", "icon":"diangun", "att":"60", "attinc":"6", "def":"3", "definc":"1", "health":"180", "healthinc":"10", "attkind":"2", "composepatch":"14", "composeneed":"30", "speed":"2", "speedinc":"2"},
+	{"id":"9", "name":"风行者", "quality":"2", "kind":"1", "icon":"fengxingzhe", "att":"60", "attinc":"6", "def":"3", "definc":"1", "health":"180", "healthinc":"10", "attkind":"2", "composepatch":"15", "composeneed":"30", "speed":"2", "speedinc":"2"},
+	{"id":"10", "name":"大鱼人", "quality":"1", "kind":"1", "icon":"dayuren", "att":"60", "attinc":"6", "def":"3", "definc":"1", "health":"180", "healthinc":"10", "attkind":"2", "composepatch":"16", "composeneed":"10", "speed":"1", "speedinc":"1"}
+	]
+}

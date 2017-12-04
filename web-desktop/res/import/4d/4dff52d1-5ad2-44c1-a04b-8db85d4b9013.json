@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "attr_board1",
+    "texture": "888cc889-78a4-44f1-8b27-9e22416bd970",
+    "rect": [
+      0,
+      0,
+      490,
+      95
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      490,
+      95
+    ]
+  }
+}

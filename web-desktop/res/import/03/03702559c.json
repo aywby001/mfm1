@@ -1,0 +1,130 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "itemframe3",
+      "texture": "6ccc3f06-6102-4476-b229-45447d426042",
+      "rect": [
+        2,
+        73,
+        68,
+        69
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        72,
+        73
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "itemframe2",
+      "texture": "6ccc3f06-6102-4476-b229-45447d426042",
+      "rect": [
+        2,
+        144,
+        68,
+        69
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        72,
+        73
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "itemframe0",
+      "texture": "6ccc3f06-6102-4476-b229-45447d426042",
+      "rect": [
+        143,
+        2,
+        68,
+        69
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        72,
+        73
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "itemframe4",
+      "texture": "6ccc3f06-6102-4476-b229-45447d426042",
+      "rect": [
+        2,
+        2,
+        68,
+        69
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        72,
+        73
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "itemframe.plist",
+    "_spriteFrames": {
+      "itemframe0": {
+        "__uuid__": "3df8a66a-1a3e-4ff0-9879-d9407c8ff8fb"
+      },
+      "itemframe1": {
+        "__uuid__": "e44364ce-e7a9-4c3b-bff5-4d208eb3a47f"
+      },
+      "itemframe2": {
+        "__uuid__": "2d74d26f-5ecc-4488-9dc6-89f1a421a9fd"
+      },
+      "itemframe3": {
+        "__uuid__": "16bbafd4-ea54-4792-9860-47578db96a19"
+      },
+      "itemframe4": {
+        "__uuid__": "41464f68-0e62-4a42-b330-f78dfa7e7697"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "itemframe1",
+      "texture": "6ccc3f06-6102-4476-b229-45447d426042",
+      "rect": [
+        72,
+        2,
+        68,
+        69
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        72,
+        73
+      ],
+      "rotated": 1
+    }
+  }
+]

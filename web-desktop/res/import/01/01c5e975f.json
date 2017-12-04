@@ -1,0 +1,844 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "chenmoshushi",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        650,
+        809,
+        200,
+        192
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        192
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiaoxiao",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        418,
+        810,
+        200,
+        191
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        191
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "laolu",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        608,
+        200,
+        208
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        208
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "yingmo",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        454,
+        406,
+        200,
+        214
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        214
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "fengxingzhe",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        228,
+        406,
+        194,
+        224
+      ],
+      "offset": [
+        3,
+        0
+      ],
+      "originalSize": [
+        200,
+        224
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "houxuexiaobing",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        822,
+        1175,
+        200,
+        144
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        144
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "zhouosi",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        822,
+        1012,
+        200,
+        161
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        161
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "heiniao",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        670,
+        406,
+        200,
+        208
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        208
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "anmu",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        228,
+        602,
+        200,
+        211
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        211
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "huonv",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        2,
+        200,
+        346
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        346
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "armyicon.plist",
+    "_spriteFrames": {
+      "anmu": {
+        "__uuid__": "3805bc4f-369b-427a-8431-5062b7db05be"
+      },
+      "bingnv": {
+        "__uuid__": "acbc169d-aa61-4f98-85ce-65faeb5b3bc9"
+      },
+      "chaoxi": {
+        "__uuid__": "71a023fc-c59d-4122-8815-5238a9901da2"
+      },
+      "chenmo": {
+        "__uuid__": "642ef05e-16a0-4c29-ae5b-9251b086b21d"
+      },
+      "chenmoshushi": {
+        "__uuid__": "0cf7f3d7-6707-42ce-9194-01b691221af1"
+      },
+      "chuanzhang": {
+        "__uuid__": "9cde76df-0e11-4db6-88e7-87ff5333ba5c"
+      },
+      "danajia": {
+        "__uuid__": "d84d9489-724e-4c68-b9e9-e10c890d7e73"
+      },
+      "dayuren": {
+        "__uuid__": "9ffce308-0979-4a81-b5d8-cf7eba0b4dd7"
+      },
+      "diangun": {
+        "__uuid__": "8062e787-2ec6-434e-840c-2f4f65efbb95"
+      },
+      "fengxingzhe": {
+        "__uuid__": "2880dacb-c456-4f7b-8d19-05c3ed977798"
+      },
+      "gugong": {
+        "__uuid__": "8897a77f-d3e7-42cb-906f-f3abf0af563a"
+      },
+      "haiyao": {
+        "__uuid__": "83d7f28e-8e17-46c1-8ed2-dd40da1394a2"
+      },
+      "haiyao1": {
+        "__uuid__": "a4e298ce-364c-4e24-95fd-1e44337ee861"
+      },
+      "heiniao": {
+        "__uuid__": "30e6e302-35a1-4f87-966d-6cba44710559"
+      },
+      "houxuexiaobing": {
+        "__uuid__": "2c27b3bb-e6af-4df5-b503-f90dff543d4f"
+      },
+      "huonv": {
+        "__uuid__": "3a74445f-396e-4cfd-8e8c-7aa427b86db1"
+      },
+      "huoqiang": {
+        "__uuid__": "6701e993-0c4a-4ce2-ae03-8c4b9d66bfb6"
+      },
+      "kulouwang": {
+        "__uuid__": "b6fc18b5-da9b-4c00-b7e0-855827805562"
+      },
+      "laien": {
+        "__uuid__": "c3118a62-405d-41bd-9f57-f7a0c9fbcfb0"
+      },
+      "laolu": {
+        "__uuid__": "1452db44-990e-44ae-a356-da2c9c6703d3"
+      },
+      "nvwang": {
+        "__uuid__": "98bc0b59-3e78-42dc-b683-98262eee78ea"
+      },
+      "pake": {
+        "__uuid__": "ded1ebd4-0803-4075-a4ea-66f36b35664e"
+      },
+      "shengqishi": {
+        "__uuid__": "c9bfa50e-ead2-4310-8b42-67feb4b085f5"
+      },
+      "silingfashi": {
+        "__uuid__": "f913a831-efe0-41f9-ba0c-ae5832f2d660"
+      },
+      "xiaobing": {
+        "__uuid__": "d7712c7b-20c8-4447-89ea-e2728035684d"
+      },
+      "xiaohei": {
+        "__uuid__": "5901c22e-06b7-4218-8ca9-f3ee03dfae6d"
+      },
+      "xiaonajia": {
+        "__uuid__": "800f89df-0d4d-40e5-8156-9c75b6551430"
+      },
+      "xiaoniu": {
+        "__uuid__": "a436837c-0b5a-4903-8d3b-df634c7596b9"
+      },
+      "xiaoxiao": {
+        "__uuid__": "0d0985ef-4a4b-4adf-b1b4-f691f084296d"
+      },
+      "xiongmaojiuxian": {
+        "__uuid__": "e9b6a45a-0551-4f12-bb5e-3dfe9dd59147"
+      },
+      "xiubu": {
+        "__uuid__": "b3b897e7-adc5-48e1-adaa-52e9a5f449b6"
+      },
+      "yingmo": {
+        "__uuid__": "1d02e07e-c48e-4786-93fd-fb27c60f910e"
+      },
+      "yuanchengbing": {
+        "__uuid__": "b4b596e0-9eb1-4466-b29a-7bf8a6c17ded"
+      },
+      "zhouosi": {
+        "__uuid__": "2cf10cb7-dbe5-4136-a989-dad412b6fcfa"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiaohei",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        406,
+        200,
+        224
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        224
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "chenmo",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        766,
+        204,
+        200,
+        239
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        239
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "huoqiang",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        620,
+        1003,
+        200,
+        162
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        162
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "chaoxi",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        206,
+        1006,
+        200,
+        186
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        186
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiaonajia",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        1375,
+        200,
+        174
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        174
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "diangun",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        810,
+        200,
+        202
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        202
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "haiyao",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        263,
+        204,
+        200,
+        258
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        258
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "gugong",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        350,
+        2,
+        200,
+        268
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        268
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "nvwang",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        852,
+        608,
+        200,
+        170
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        170
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "chuanzhang",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        406,
+        1195,
+        190,
+        192
+      ],
+      "offset": [
+        5,
+        0
+      ],
+      "originalSize": [
+        200,
+        192
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "dayuren",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        620,
+        1167,
+        200,
+        156
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        156
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiaoniu",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        418,
+        1003,
+        200,
+        190
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        190
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "haiyao1",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        620,
+        2,
+        200,
+        263
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        263
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bingnv",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        204,
+        200,
+        259
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        259
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiubu",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        852,
+        810,
+        200,
+        162
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        162
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "yuanchengbing",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        650,
+        608,
+        200,
+        199
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        199
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "kulouwang",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        822,
+        1321,
+        194,
+        147
+      ],
+      "offset": [
+        3,
+        0
+      ],
+      "originalSize": [
+        200,
+        147
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "laien",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        880,
+        406,
+        200,
+        141
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        141
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "shengqishi",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        523,
+        204,
+        200,
+        241
+      ],
+      "offset": [
+        0,
+        -5
+      ],
+      "originalSize": [
+        200,
+        251
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiaobing",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        204,
+        1194,
+        200,
+        180
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        180
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "danajia",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        212,
+        804,
+        200,
+        204
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        204
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pake",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        441,
+        608,
+        200,
+        207
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        207
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "xiongmaojiuxian",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        1195,
+        200,
+        178
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        200,
+        178
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "silingfashi",
+      "texture": "77523fb8-f9bf-488d-8ff6-3311f831cefa",
+      "rect": [
+        2,
+        1012,
+        200,
+        181
+      ],
+      "offset": [
+        0,
+        5
+      ],
+      "originalSize": [
+        200,
+        193
+      ]
+    }
+  }
+]

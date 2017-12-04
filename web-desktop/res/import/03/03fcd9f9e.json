@@ -1,0 +1,232 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0008",
+      "texture": "acc2f474-9873-49d9-9faf-6dc39302622d",
+      "rect": [
+        1,
+        5,
+        51,
+        65
+      ],
+      "offset": [
+        -8.5,
+        -2.5
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0006",
+      "texture": "e22de8ec-154f-4ed8-8272-5acf5cd16087",
+      "rect": [
+        2,
+        0,
+        67,
+        70
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "clickdown",
+    "_duration": 0.8,
+    "sample": 10,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "629ae756-2d02-4f57-892f-fd5c344e4508"
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__uuid__": "97eb4b46-a459-45e0-8e7c-2ecb2a3eb161"
+              }
+            },
+            {
+              "frame": 0.2,
+              "value": {
+                "__uuid__": "abf6658e-0204-4013-a607-39aae83c442e"
+              }
+            },
+            {
+              "frame": 0.3,
+              "value": {
+                "__uuid__": "76bbdc60-7af0-4465-899e-1211716bb9a4"
+              }
+            },
+            {
+              "frame": 0.4,
+              "value": {
+                "__uuid__": "2bb713ff-13af-4c47-8747-9269d980a807"
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__uuid__": "c376b635-a76a-4b41-bdb2-66bafa86fd22"
+              }
+            },
+            {
+              "frame": 0.6,
+              "value": {
+                "__uuid__": "1e978686-f917-469a-8a23-1475a2f445f9"
+              }
+            },
+            {
+              "frame": 0.7,
+              "value": {
+                "__uuid__": "ca338bf0-95e2-406a-a66f-df71532c0a10"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0002",
+      "texture": "38f9b618-4dba-407a-b4c2-a8a57c020a20",
+      "rect": [
+        16,
+        11,
+        47,
+        50
+      ],
+      "offset": [
+        4.5,
+        -1
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0005",
+      "texture": "dc4e31eb-b5ab-4559-b53c-0d9183082cdf",
+      "rect": [
+        4,
+        2,
+        65,
+        68
+      ],
+      "offset": [
+        1.5,
+        -1
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0003",
+      "texture": "e5025cdf-37ed-45f8-ae8a-9d369785dc69",
+      "rect": [
+        13,
+        7,
+        52,
+        58
+      ],
+      "offset": [
+        4,
+        -1
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0004",
+      "texture": "26cd5304-be28-4a58-9e97-fa70c5c62aad",
+      "rect": [
+        8,
+        4,
+        59,
+        65
+      ],
+      "offset": [
+        2.5,
+        -1.5
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0007",
+      "texture": "7cee4f3b-85d3-4c76-b4b0-51b99945d31e",
+      "rect": [
+        0,
+        1,
+        70,
+        69
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "no-0001",
+      "texture": "e878f9d1-4023-42f6-8c2b-6250ea711ad4",
+      "rect": [
+        29,
+        15,
+        30,
+        41
+      ],
+      "offset": [
+        9,
+        -0.5
+      ],
+      "originalSize": [
+        70,
+        70
+      ]
+    }
+  }
+]
