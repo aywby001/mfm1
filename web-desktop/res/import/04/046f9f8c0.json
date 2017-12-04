@@ -3514,13 +3514,13 @@
           "_N$horizontalAlign": 1,
           "_N$fontSize": 16,
           "_N$maxWidth": 200,
-          "_N$lineHeight": 30
+          "_N$lineHeight": 24
         }
       ],
       "_contentSize": {
         "__type__": "cc.Size",
         "width": 200,
-        "height": 180
+        "height": 144
       }
     },
     {
