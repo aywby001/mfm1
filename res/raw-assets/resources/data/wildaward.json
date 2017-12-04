@@ -1,0 +1,31 @@
+{
+	"collect":[
+		{
+		"chance":"0.4", "duration":"3", "icon":"randomEvent1", 
+		"award": [
+			{"chance":"0.4", "gold":"500", "userEXP":"1", "mercEXP":"1", "items":[
+				{"id":"1", "count":"2"},{"id":"2", "count":"2"},{"id":"3", "count":"2"},{"id":"4", "count":"2"}]},
+			{"chance":"0.4", "gold":"700", "userEXP":"1", "mercEXP":"1", "items":[
+				{"id":"5", "count":"2"},{"id":"12", "count":"2"},{"id":"13", "count":"2"},{"id":"14", "count":"2"}]},
+			{"chance":"0.3", "gold":"700", "userEXP":"1", "mercEXP":"1", "items":[
+				{"id":"15", "count":"2"},{"id":"16", "count":"2"},{"id":"13", "count":"2"},{"id":"14", "count":"2"}]}
+		]
+		}],
+	"occupy":[
+		{
+		"chance":"0.3", "duration":"2", "icon":"randomEvent2", 
+		"award": [
+			{"chance":"0.7", "rmb":"5", "recharge":"1", "mercEXP":"2"},
+			{"chance":"0.3", "rmb":"2", "recharge":"2", "mercEXP":"2"}
+		]}
+		],
+	"battle":[
+		{
+		"chance":"0.3", "duration":"5", "icon":"randomEvent3", 
+		"award": [
+			{"chance":"0.3", "gold":"1000", "vit":"1", "userEXP":"3", "mercEXP":"3"},
+			{"chance":"0.3", "gold":"700", "vit":"2", "userEXP":"3", "mercEXP":"3"},
+			{"chance":"0.4", "gold":"500", "vit":"3", "userEXP":"3", "mercEXP":"3"}
+		]}
+	]
+}

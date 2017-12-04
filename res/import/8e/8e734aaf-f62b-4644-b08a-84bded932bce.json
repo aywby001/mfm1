@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "uigroup",
+    "texture": "94117f08-cb82-4278-a5e1-85799987f1e2",
+    "rect": [
+      2,
+      3,
+      47,
+      91
+    ],
+    "offset": [
+      -6.5,
+      15.5
+    ],
+    "originalSize": [
+      64,
+      128
+    ]
+  }
+}

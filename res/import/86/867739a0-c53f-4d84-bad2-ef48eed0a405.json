@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "town_bg1",
+    "texture": "3aef72d8-77c8-4ab8-b24f-ddcbbe208341",
+    "rect": [
+      0,
+      0,
+      800,
+      481
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      800,
+      481
+    ]
+  }
+}

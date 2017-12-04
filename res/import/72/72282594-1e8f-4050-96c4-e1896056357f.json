@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "randomEventHole2",
+    "texture": "3c1f3144-a407-49d2-b843-b14345c50a89",
+    "rect": [
+      0,
+      0,
+      24,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      29
+    ]
+  }
+}

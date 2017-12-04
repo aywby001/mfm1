@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "randomEvent1",
+    "texture": "3678ad9b-42e5-448c-94b4-11bc408131d5",
+    "rect": [
+      0,
+      0,
+      100,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      80
+    ]
+  }
+}

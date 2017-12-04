@@ -1,0 +1,495 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "damagenum",
+      "data": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "damagenum",
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 1
+          },
+          "_useOriginalSize": false,
+          "_actualFontSize": 25,
+          "_fontSize": 25,
+          "_lineHeight": 30,
+          "_N$string": "-100000",
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_N$overflow": 1
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__id__": 0
+        },
+        "fileId": "f028fpChpdJhZnO14xtyUxp"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 253
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 150,
+        "height": 30
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": 70
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_disabled",
+      "texture": "71561142-4c83-4933-afca-cb7a17f67053",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        15,
+        11,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "attack_02",
+      "texture": "b40a66ff-5d03-4c0e-8c61-474fcbe19f10",
+      "rect": [
+        0,
+        0,
+        26,
+        47
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        26,
+        47
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "player",
+      "data": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "player",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 5
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "caca4Csy6xJqpz8eD13PBev",
+          "node": {
+            "__id__": 1
+          },
+          "sprite": {
+            "__id__": 3
+          },
+          "anim": {
+            "__id__": 4
+          },
+          "moveDuration": 0.5,
+          "attackOffset": 40,
+          "bloodBar": {
+            "__id__": 5
+          },
+          "damageNumber": {
+            "__uuid__": "07262cd7-3fc9-4e14-8f8d-0890addf7705"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__id__": 0
+        },
+        "fileId": "d543axerAZDUKFftXcoR2X7"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 40,
+        "height": 36
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "sprite",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__id__": 3
+        },
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 2
+          },
+          "_enabled": false,
+          "transition": 2,
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "pressedSprite": {
+            "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+          },
+          "hoverSprite": {
+            "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+          },
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$normalSprite": {
+            "__uuid__": "2be21279-f463-4452-9e91-1b41038b090d"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
+          },
+          "_N$target": {
+            "__id__": 2
+          }
+        },
+        {
+          "__id__": 4
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__id__": 0
+        },
+        "fileId": "d0a23s+GrVNnbiYAE1dMku9"
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 0.5
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 26,
+        "height": 47
+      }
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 2
+      },
+      "_spriteFrame": {
+        "__uuid__": "2be21279-f463-4452-9e91-1b41038b090d"
+      }
+    },
+    {
+      "__type__": "cc.Animation",
+      "node": {
+        "__id__": 2
+      },
+      "_clips": [
+        {
+          "__uuid__": "11a8669c-339f-42cc-8562-7aec294d685f"
+        },
+        {
+          "__uuid__": "b6c29883-4761-4c7c-942f-651df4019faa"
+        },
+        {
+          "__uuid__": "ee7e5971-f86f-41d9-8c3f-98f09f6ab40b"
+        },
+        {
+          "__uuid__": "79897773-4602-4ded-b082-b572251a0f98"
+        },
+        {
+          "__uuid__": "c28aaeb6-29b7-4232-b8cb-c77b340701d8"
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bloodbar",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 6
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 5
+          },
+          "_spriteFrame": {
+            "__uuid__": "88e79fd5-96b4-4a77-a1f4-312467171014"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.ProgressBar",
+          "node": {
+            "__id__": 5
+          },
+          "_N$totalLength": 50,
+          "_N$barSprite": {
+            "__id__": 7
+          },
+          "_N$progress": 0,
+          "_N$reverse": true
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 5
+          },
+          "_alignFlags": 1,
+          "_top": -41.5
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__id__": 0
+        },
+        "fileId": "7a641mobe5MLZrKU4UFNJ8o"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "g": 255,
+        "b": 71
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 1,
+        "y": 0.5
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 50,
+        "height": 5
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 22.5,
+        "y": 57
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bar",
+      "_parent": {
+        "__id__": 5
+      },
+      "_components": [
+        {
+          "__id__": 7
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__id__": 0
+        },
+        "fileId": "c06f5JFIphCkJW8/WFll3Z5"
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 1,
+        "y": 0.5
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "height": 5
+      }
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 6
+      },
+      "_spriteFrame": {
+        "__uuid__": "67e68bc9-dad5-4ad9-a2d8-7e03d458e32f"
+      },
+      "_type": 1,
+      "_sizeMode": 0,
+      "_fillStart": 1
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_progressbar",
+      "texture": "cfef78f1-c8df-49b7-8ed0-4c953ace2621",
+      "rect": [
+        0,
+        0,
+        30,
+        15
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        30,
+        15
+      ],
+      "capInsets": [
+        5,
+        0,
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_progressbar_bg",
+      "texture": "99170b0b-d210-46f1-b213-7d9e3f23098a",
+      "rect": [
+        0,
+        0,
+        60,
+        15
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        15
+      ],
+      "capInsets": [
+        5,
+        0,
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_pressed",
+      "texture": "b43ff3c2-02bb-4874-81f7-f2dea6970f18",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        15,
+        11,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "hurt",
+    "_duration": 0.7,
+    "sample": 10,
+    "curveData": {
+      "props": {
+        "x": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 0.2,
+            "value": -20
+          },
+          {
+            "frame": 0.5,
+            "value": -5
+          },
+          {
+            "frame": 0.7,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+]

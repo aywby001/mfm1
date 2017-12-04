@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pos2",
+    "texture": "2ff31d6d-f5ac-4174-8c63-dcfb16f4a5a7",
+    "rect": [
+      2,
+      4,
+      45,
+      47
+    ],
+    "offset": [
+      -0.5,
+      -2
+    ],
+    "originalSize": [
+      50,
+      51
+    ]
+  }
+}

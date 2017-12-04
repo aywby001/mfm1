@@ -1,0 +1,443 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_disabled",
+      "texture": "71561142-4c83-4933-afca-cb7a17f67053",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        15,
+        11,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "wild_bg1",
+      "texture": "27007e35-66cf-4006-9ba0-1838568d541e",
+      "rect": [
+        0,
+        0,
+        800,
+        480
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        800,
+        480
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "(冰女)",
+      "texture": "d2dce613-dbbb-4edd-9877-3383677fdb4d",
+      "rect": [
+        0,
+        0,
+        819,
+        1060
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        819,
+        1060
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "wild",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": false
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 8
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "wildroot",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "350cdPUq0FFXZysAI52Iiz+",
+          "node": {
+            "__id__": 2
+          },
+          "hero": {
+            "__id__": 4
+          },
+          "bg": {
+            "__id__": 3
+          }
+        }
+      ],
+      "_id": "ab616wOtd5AE4XCJS5iYoII"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bg",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_spriteFrame": {
+            "__uuid__": "83da99c1-63b1-4aa7-84cc-4e579fae858b"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1920,
+        "height": 1280
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 480,
+        "y": 320
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "hero",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_spriteFrame": {
+            "__uuid__": "b0b9195f-46c6-4740-ac58-41537e62ae1c"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "11cfd3rFOxMrJIMOodBlhIl",
+          "node": {
+            "__id__": 4
+          },
+          "speed": 2,
+          "moveDuration": 3,
+          "searchMaxTimes": 5,
+          "logText": {
+            "__id__": 5
+          },
+          "collectPer": 0.4,
+          "occupyPer": 0.3,
+          "battlePer": 0.3,
+          "progressing": {
+            "__uuid__": "9f03dac5-f766-4330-8eeb-bcd48b391cea"
+          },
+          "collectDuration": 10,
+          "occupyDuration": 5
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 90,
+        "height": 110
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 480,
+        "y": 320
+      }
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 6
+      },
+      "_useOriginalSize": false,
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "logLabel",
+      "_parent": {
+        "__id__": 7
+      },
+      "_components": [
+        {
+          "__id__": 5
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 97.87,
+        "height": 40
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 4,
+        "y": 212
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "wildui",
+      "_parent": {
+        "__id__": 8
+      },
+      "_children": [
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 9
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 7
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 8
+          },
+          "_fitWidth": true
+        },
+        {
+          "__type__": "4e2b5mR2hVKDoaf7Xp6rjUN",
+          "node": {
+            "__id__": 8
+          },
+          "hero": {
+            "__id__": 4
+          },
+          "moveDuration": 3,
+          "bg": {
+            "__id__": 3
+          },
+          "searchMaxTimes": 5,
+          "logText": {
+            "__id__": 5
+          }
+        }
+      ],
+      "_id": "c2e6drHsEhBuIRsiVB6QC2A",
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 480,
+        "y": 320
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "gototown",
+      "_parent": {
+        "__id__": 7
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 9
+          },
+          "_spriteFrame": {
+            "__uuid__": "fdc918c1-325f-476c-8e71-591d5769e51e"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 9
+          },
+          "transition": 3,
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "zoomScale": 1.1,
+          "pressedSprite": {
+            "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+          },
+          "hoverSprite": {
+            "__uuid__": "e9ec654c-97a2-4787-9325-e6a10375219a"
+          },
+          "clickEvents": [
+            {
+              "__type__": "cc.ClickEvent",
+              "target": {
+                "__id__": 9
+              },
+              "component": "gototown",
+              "handler": "gotoTown"
+            }
+          ],
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "_N$normalSprite": {
+            "__uuid__": "fdc918c1-325f-476c-8e71-591d5769e51e"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
+          },
+          "_N$target": {
+            "__id__": 9
+          }
+        },
+        {
+          "__type__": "7e786oLECpCILDIn5nEs1wn",
+          "node": {
+            "__id__": 9
+          }
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 97
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": -480,
+        "y": -42
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_pressed",
+      "texture": "b43ff3c2-02bb-4874-81f7-f2dea6970f18",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        15,
+        11,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "turntown",
+      "texture": "0140a5ec-e4ba-4669-81c2-867da571a6fa",
+      "rect": [
+        0,
+        0,
+        164,
+        187
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        164,
+        187
+      ]
+    }
+  }
+]
