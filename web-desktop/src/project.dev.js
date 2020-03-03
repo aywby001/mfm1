@@ -4226,11 +4226,11 @@ cc.Class({
 
     // use this for initialization
     onLoad: function onLoad() {
-        cc.log('btn_onLoad');
+        // cc.log('btn_onLoad');
     },
 
     startGame: function startGame() {
-        cc.log('startGame');
+        // cc.log('startGame');
         cc.director.loadScene('town');
     },
 
@@ -4238,7 +4238,7 @@ cc.Class({
         var editBox = this.node.parent.getChildByName('accountEditBox').getComponent(cc.EditBox);
 
         var num = 10000 + (Math.random() * 100 | 0);
-        cc.log('createAndStartGame()', num, editBox.string);
+        // cc.log('createAndStartGame()', num, editBox.string);
         // storageManager.writeData({type: 'userID', value: num});
         // storageManager.writeData({type: 'nickName', value: editBox.string});
         dataManager.coverData({ type: 'userID', value: num });
@@ -4753,7 +4753,7 @@ cc.Class({
                     //背包内有道具
                     var newItem = { 'id': pId, 'count': pCount };
                     cc.game.res.items.push(newItem);
-                    cc.log(_typeof(cc.game.res.items));
+                    // cc.log(typeof(cc.game.res.items));
                     dataManager.coverData({ type: 'items', value: cc.game.res.items });
                 } else {
                     //背包内无道具
@@ -6782,7 +6782,7 @@ cc.Class({
     },
 
     refreshIDUI: function refreshIDUI() {
-        cc.log('refreshIDUI:');
+        // cc.log('refreshIDUI:');
 
         //玩家昵称
         var nameNode = cc.find('Canvas/ui/head/namebg/namelabel');
@@ -6940,7 +6940,7 @@ cc.Class({
     },
 
     calcOffRewards: function calcOffRewards() {
-        cc.log('calcOffRewards_start');
+        // cc.log('calcOffRewards_start');
         if (cc.game.infor.calcedOffRewards) return;
         this.offTime = this.calcOffTime();
         //??
@@ -6998,7 +6998,7 @@ cc.Class({
                     }
                 }
             }
-            cc.log('calcOffRewards_calcend');
+            // cc.log('calcOffRewards_calcend');
             //发放离线奖励
             cc.game.commonMethod.grantRewards(awards);
             // for(let i in awards){
@@ -7023,7 +7023,7 @@ cc.Class({
             offNode.active = true;
             btn.on(cc.Node.EventType.TOUCH_END, this.offUI.bind(this));
         }
-        cc.log('calcOffRewards_end');
+        // cc.log('calcOffRewards_end');
     },
 
     offUI: function offUI() {
@@ -7803,7 +7803,7 @@ cc.Class({
     },
 
     summonUIManager: function summonUIManager() {
-        cc.log('summonUIManager');
+        // cc.log('summonUIManager');
 
         //如果召唤显示界面显示则不打开召唤主界面
         if (this.summonShow.active === true) {
